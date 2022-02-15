@@ -1,0 +1,167 @@
+html {
+	overflow-x: hidden
+}
+
+body {
+	overflow-x: hidden;
+	font-family: open sans, sans-serif;
+	line-height: 1.8;
+	font-size: 16px;
+	background: #fff;
+	color: #859196
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: #32609e
+}
+
+.appointment-form{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar{
+    border-radius: 50px !important;
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	line-height: 1.45;
+	font-weight: 400;
+	color: #32609e
+}
+
+h1,
+.h1 {
+	font-size: 30px
+}
+
+h2,
+.h2 {
+	font-size: 24px
+}
+
+h3,
+.h3 {
+	font-size: 22px
+}
+
+h5,
+.h4 {
+	font-size: 20px
+}
+
+h5,
+.h5 {
+	font-size: 18px
+}
+
+.text-primary {
+	color: #32609e!important
+}
+
+.text-secondary {
+	color: #4fb5e6!important
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	letter-spacing: .1em
+}
+
+.mybootstrap-navbar-dark {
+	background: #000000 !important;
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+
+.mybootstrap-navbar-dark .navbar-nav>.nav-item>.nav-link {
+	font-size: 13px;
+	letter-spacing: .1em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase
+}
+
+select *{
+    color: black !important;
+}
+
+
+.control-label{
+    color: rgb(157, 202, 233);
+}
+
+.submit-btn{
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mybootstrap-footer {
+	background: #353638;
+	color: #4fb5e6!important;
+    padding: 0;
+}
+
+.mybootstrap-footer a {
+	color: #4fb5e6
+}
+
+.mybootstrap-footer p {
+	color: #4fb5e6!important
+}
+
+.mybootstrap-footer .heading {
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: .2em;
+	text-transform: uppercase
+}
+
+.clearfix::after{
+    content: "";
+    width: 10px;
+    color: white;
+    margin: 80px;
+}
+
+.thankyou{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+}
+
+#hidden-success{
+	text-align: center;
+	width: 100vw;
+	visibility: hidden;
+}
+
+.container{
+	padding: 15px;
+}
