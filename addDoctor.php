@@ -57,6 +57,7 @@
     document.getElementById('about').classList.remove('active');
     document.getElementById('contact').classList.remove('active');
 </script>
+
 <?php include("footer.php"); ?>
 
 <?php
